@@ -1,4 +1,4 @@
-import requests
+inimport requests
 from bs4 import BeautifulSoup
 
 def scrape_wikipedia(url):
@@ -35,6 +35,6 @@ def scrape_wikipedia(url):
     }
 
 # Example Usage
-url = 'https://en.wikipedia.org/wiki/Web_scraping'
+url = input()
 data = scrape_wikipedia(url)
 print(data)
